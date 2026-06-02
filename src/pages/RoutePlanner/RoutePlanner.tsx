@@ -46,7 +46,7 @@ const RoutePlanner: React.FC = () => {
       if (resolvedFrom) setFrom(resolvedFrom);
       if (resolvedTo) setTo(resolvedTo);
     });
-  }, []);
+  }, [searchParams]);
 
   const search = async () => {
     setError('');

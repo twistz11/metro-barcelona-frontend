@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { useSearchParams } from 'react-router-dom';
@@ -35,15 +35,17 @@ const Schedule: React.FC = () => {
     return () => clearInterval(id);
   }, []);
 
-  const fetchSchedule = useCallback(async () => {
+  useEffect(() => {
     if (!selectedLine || !selectedStation) return;
+    let cancelled = false;
     setLoading(true);
-    const { data } = await $api.get(`/metro/schedule/${selectedLine}/${selectedStation}`);
-    setSchedule(data);
-    setLoading(false);
+    $api.get(`/metro/schedule/${selectedLine}/${selectedStation}`).then(r => {
+      if (cancelled) return;
+      setSchedule(r.data);
+      setLoading(false);
+    });
+    return () => { cancelled = true; };
   }, [selectedLine, selectedStation, tick]);
-
-  useEffect(() => { fetchSchedule(); }, [fetchSchedule]);
 
   const filteredStations = stations;
 
