@@ -1,0 +1,11 @@
+.footer { background: #0a0a1a; color: #fff; margin-top: auto; }
+.footer-line-strip { display: flex; height: 4px; }
+.footer-content { display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; padding: 2.5rem 2rem; flex-wrap: wrap; }
+.footer-brand { max-width: 300px; }
+.footer-logo { font-size: 1.2rem; font-weight: 900; color: #fff; display: block; margin-bottom: 0.5rem; }
+.footer-brand p { font-size: 0.8rem; color: rgba(255,255,255,0.4); line-height: 1.5; }
+.footer-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.footer-links a { color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
+.footer-links a:hover { color: #fff; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.08); padding: 1rem 2rem; text-align: center; }
+.footer-bottom p { font-size: 0.8rem; color: rgba(255,255,255,0.3); margin: 0; }

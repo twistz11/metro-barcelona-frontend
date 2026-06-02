@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "home": "Inici",
+    "lines": "Línies de Metro",
+    "schedule": "Horaris",
+    "attractions": "Atraccions",
+    "planner": "Planificador",
+    "profile": "Perfil",
+    "login": "Iniciar Sessió",
+    "logout": "Tancar Sessió"
+  },
+  "home": {
+    "hero_title": "Metro de Barcelona",
+    "hero_subtitle": "La teva guia intel·ligent del subsol de la ciutat",
+    "hero_cta": "Planifica la teva Ruta",
+    "explore": "Explorar",
+    "stats_lines": "Línies de Metro",
+    "stats_stations": "Estacions",
+    "stats_daily": "Passatgers Diaris",
+    "stats_km": "km de Xarxa",
+    "features_title": "Tot el que necessites",
+    "feature_realtime": "Horari en Temps Real",
+    "feature_realtime_desc": "Veure els propers trens de cada línia",
+    "feature_planner": "Planificador de Rutes",
+    "feature_planner_desc": "Compara rutes i troba el camí més ràpid",
+    "feature_attractions": "Atraccions Turístiques",
+    "feature_attractions_desc": "Rutes planificades als 7 monuments principals",
+    "feature_tickets": "Calculadora de Bitllets",
+    "feature_tickets_desc": "Troba el millor bitllet per al teu viatge"
+  },
+  "lines": {
+    "title": "Línies de Metro",
+    "subtitle": "10 línies que connecten Barcelona",
+    "stations": "estacions",
+    "frequency": "Freqüència",
+    "view_schedule": "Veure Horari"
+  },
+  "schedule": {
+    "title": "Horari en Directe",
+    "select_line": "Selecciona Línia",
+    "select_station": "Selecciona Estació",
+    "next_trains": "Propers Trens",
+    "minutes": "min",
+    "arriving": "Arriba en",
+    "frequency": "Freqüència",
+    "last_updated": "Última actualització"
+  },
+  "attractions": {
+    "title": "Atraccions Turístiques",
+    "subtitle": "Rutes de metro planificades als principals monuments de Barcelona",
+    "nearest_station": "Estació Més Propera",
+    "lines": "Línies",
+    "get_directions": "Planificar Ruta",
+    "airport_note": "Nota"
+  },
+  "planner": {
+    "title": "Planificador de Rutes",
+    "from": "Estació d'Origen",
+    "to": "Estació de Destinació",
+    "search": "Cercar Rutes",
+    "results": "Opcions de Ruta",
+    "duration": "Durada",
+    "transfers": "Transbordaments",
+    "save_favorite": "Desar als Favorits",
+    "compare": "Comparar Rutes",
+    "direct": "Directe",
+    "ticket_needed": "Bitllet necessari",
+    "tourist_tip": "Consell Turístic",
+    "tourist_tip_desc": "Compra T-Casual (10 viatges) si uses el metro més de 5 vegades — és més barat per viatge.",
+    "no_transfers": "Sense transbordaments",
+    "transfer": "transbordament",
+    "transfers_count": "transbordaments",
+    "minutes": "min"
+  },
+  "auth": {
+    "login": "Iniciar Sessió",
+    "register": "Registrar-se",
+    "email": "Correu Electrònic",
+    "password": "Contrasenya",
+    "name": "Nom Complet",
+    "submit_login": "Entrar",
+    "submit_register": "Crear Compte",
+    "toggle_login": "Ja tens compte? Inicia sessió",
+    "toggle_register": "No tens compte? Registra't",
+    "welcome_back": "Benvingut de nou!",
+    "create_account": "Crea el teu compte"
+  },
+  "profile": {
+    "title": "El meu Perfil",
+    "favorites": "Rutes Desades",
+    "history": "Historial de Viatges",
+    "tickets": "Bitllets",
+    "settings": "Configuració",
+    "language": "Idioma",
+    "dark_mode": "Mode Fosc",
+    "no_favorites": "No hi ha rutes desades. Planifica una ruta i desa-la!",
+    "no_history": "No hi ha viatges registrats.",
+    "remove": "Eliminar",
+    "clear_history": "Esborrar Historial",
+    "save_prefs": "Desar Preferències"
+  },
+  "tickets": {
+    "title": "Preus de Bitllets",
+    "calculator": "Calculadora de Bitllets",
+    "trips_per_day": "Viatges per dia",
+    "days": "Dies a Barcelona",
+    "best_option": "Millor opció per a tu",
+    "price": "Preu"
+  },
+  "footer": {
+    "data_source": "Dades proporcionades per TMB — Transports Metropolitans de Barcelona",
+    "rights": "Tots els drets reservats"
+  }
+}

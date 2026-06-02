@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "lines": "Líneas de Metro",
+    "schedule": "Horarios",
+    "attractions": "Atracciones",
+    "planner": "Planificador",
+    "profile": "Perfil",
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión"
+  },
+  "home": {
+    "hero_title": "Metro de Barcelona",
+    "hero_subtitle": "Tu guía inteligente del subterráneo de la ciudad",
+    "hero_cta": "Planifica tu Ruta",
+    "explore": "Explorar",
+    "stats_lines": "Líneas de Metro",
+    "stats_stations": "Estaciones",
+    "stats_daily": "Pasajeros Diarios",
+    "stats_km": "km de Red",
+    "features_title": "Todo lo que necesitas",
+    "feature_realtime": "Horario en Tiempo Real",
+    "feature_realtime_desc": "Ve los próximos trenes de cada línea",
+    "feature_planner": "Planificador de Rutas",
+    "feature_planner_desc": "Compara rutas y encuentra el camino más rápido",
+    "feature_attractions": "Atracciones Turísticas",
+    "feature_attractions_desc": "Rutas planificadas a los 7 monumentos principales",
+    "feature_tickets": "Calculadora de Billetes",
+    "feature_tickets_desc": "Encuentra el mejor billete para tu viaje"
+  },
+  "lines": {
+    "title": "Líneas de Metro",
+    "subtitle": "10 líneas que conectan Barcelona",
+    "stations": "estaciones",
+    "frequency": "Frecuencia",
+    "view_schedule": "Ver Horario"
+  },
+  "schedule": {
+    "title": "Horario en Vivo",
+    "select_line": "Selecciona Línea",
+    "select_station": "Selecciona Estación",
+    "next_trains": "Próximos Trenes",
+    "minutes": "min",
+    "arriving": "Llega en",
+    "frequency": "Frecuencia",
+    "last_updated": "Última actualización"
+  },
+  "attractions": {
+    "title": "Atracciones Turísticas",
+    "subtitle": "Rutas de metro planificadas a los principales monumentos de Barcelona",
+    "nearest_station": "Estación Más Cercana",
+    "lines": "Líneas",
+    "get_directions": "Planificar Ruta",
+    "airport_note": "Nota"
+  },
+  "planner": {
+    "title": "Planificador de Rutas",
+    "from": "Estación de Origen",
+    "to": "Estación de Destino",
+    "search": "Buscar Rutas",
+    "results": "Opciones de Ruta",
+    "duration": "Duración",
+    "transfers": "Transbordos",
+    "save_favorite": "Guardar en Favoritos",
+    "compare": "Comparar Rutas",
+    "direct": "Directo",
+    "ticket_needed": "Billete necesario",
+    "tourist_tip": "Consejo Turístico",
+    "tourist_tip_desc": "Compra T-Casual (10 viajes) si usarás el metro más de 5 veces — es más barato por viaje.",
+    "no_transfers": "Sin transbordos",
+    "transfer": "transbordo",
+    "transfers_count": "transbordos",
+    "minutes": "min"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "name": "Nombre Completo",
+    "submit_login": "Entrar",
+    "submit_register": "Crear Cuenta",
+    "toggle_login": "¿Ya tienes cuenta? Inicia sesión",
+    "toggle_register": "¿No tienes cuenta? Regístrate",
+    "welcome_back": "¡Bienvenido de vuelta!",
+    "create_account": "Crea tu cuenta"
+  },
+  "profile": {
+    "title": "Mi Perfil",
+    "favorites": "Rutas Guardadas",
+    "history": "Historial de Viajes",
+    "tickets": "Billetes",
+    "settings": "Configuración",
+    "language": "Idioma",
+    "dark_mode": "Modo Oscuro",
+    "no_favorites": "No hay rutas guardadas. ¡Planifica una ruta y guárdala!",
+    "no_history": "No hay viajes registrados.",
+    "remove": "Eliminar",
+    "clear_history": "Borrar Historial",
+    "save_prefs": "Guardar Preferencias"
+  },
+  "tickets": {
+    "title": "Precios de Billetes",
+    "calculator": "Calculadora de Billetes",
+    "trips_per_day": "Viajes por día",
+    "days": "Días en Barcelona",
+    "best_option": "Mejor opción para ti",
+    "price": "Precio"
+  },
+  "footer": {
+    "data_source": "Datos proporcionados por TMB — Transports Metropolitans de Barcelona",
+    "rights": "Todos los derechos reservados"
+  }
+}

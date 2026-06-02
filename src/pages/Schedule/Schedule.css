@@ -1,0 +1,82 @@
+.schedule-page { padding: 2rem; max-width: 800px; margin: 0 auto; }
+
+.page-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+.page-header h1 { font-size: 2rem; font-weight: 900; color: var(--text-primary, #111); }
+.line-indicator { padding: 0.4rem 1.2rem; border-radius: 50px; color: #fff; font-weight: 900; font-size: 1.1rem; }
+
+.schedule-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem; }
+
+.select-group label { display: block; font-weight: 600; margin-bottom: 0.5rem; color: var(--text-secondary, #555); font-size: 0.9rem; }
+.select-group select {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 2px solid var(--border, #e0e0e0);
+  border-radius: 12px;
+  font-size: 1rem;
+  background: var(--card-bg, #fff);
+  color: var(--text-primary, #111);
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.select-group select:focus { outline: none; border-color: #E3000B; }
+.select-group select:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.loading-trains { text-align: center; padding: 4rem; }
+.train-loader { font-size: 4rem; animation: bounce 0.8s infinite alternate; }
+@keyframes bounce { from { transform: translateY(0); } to { transform: translateY(-20px); } }
+.loading-trains p { color: var(--text-secondary, #666); margin-top: 1rem; }
+
+.departures-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem; }
+.departures-header h2 { font-size: 1.4rem; font-weight: 800; color: var(--text-primary, #111); }
+.refresh-info { display: flex; align-items: center; gap: 0.5rem; color: var(--text-secondary, #666); font-size: 0.9rem; }
+.pulse-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+.departures-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
+
+.departure-card {
+  background: var(--card-bg, #fff);
+  border-radius: 16px;
+  padding: 1.2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-left: 5px solid;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+  position: relative;
+}
+
+.departure-time { min-width: 80px; text-align: center; }
+.min-value { font-size: 2.5rem; font-weight: 900; color: var(--text-primary, #111); line-height: 1; }
+.min-label { display: block; font-size: 0.8rem; color: var(--text-secondary, #666); }
+.now-badge { font-size: 1.3rem; font-weight: 900; color: #E3000B; }
+
+.departure-info { flex: 1; }
+.departure-info span { display: block; font-size: 0.85rem; color: var(--text-secondary, #666); }
+.departure-info strong { font-size: 1.2rem; color: var(--text-primary, #111); }
+
+.urgency-now { background: #fff5f5; border-left-color: #E3000B !important; }
+.urgency-soon { background: #fffbf0; }
+.urgency-later { background: var(--card-bg, #fff); }
+
+.next-badge {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  background: #E3000B;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 900;
+  padding: 0.2rem 0.6rem;
+  border-radius: 50px;
+  letter-spacing: 1px;
+}
+
+.last-updated { font-size: 0.8rem; color: var(--text-secondary, #999); text-align: right; }
+
+.empty-state { text-align: center; padding: 6rem 2rem; }
+.empty-icon { font-size: 5rem; display: block; margin-bottom: 1rem; }
+.empty-state p { color: var(--text-secondary, #666); font-size: 1.1rem; }
+
+@media (max-width: 600px) {
+  .schedule-controls { grid-template-columns: 1fr; }
+}
